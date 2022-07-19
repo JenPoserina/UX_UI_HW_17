@@ -1,0 +1,90 @@
+body{
+    max-width: 100%;
+}
+/*Navigation Area*/
+.nav{
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    display: flex;
+    height: 100px;
+}
+.inline-block{
+    display: inline-block;
+    justify-content: space-around;
+    margin: 1px;
+}
+/*Logo*/
+.logo:hover{
+    opacity: 0.7;
+}
+/*Nav Tabs*/
+.button{
+    background-color: black;
+    color: #f3f3f3;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.button:hover{
+    color: #C02242;
+}
+/*Social Media*/
+.fa{
+    padding: 3px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover{
+    color: #C02242;
+}
+.fa-linkedin{
+    background: black;
+    color: #f3f3f3;
+}
+.fa-instagram{
+    background: black;
+    color: #f3f3f3;
+}
+.fa-behance{
+    background: black;
+    color: #f3f3f3;
+}
+/* Hero with Text*/
+.container{
+    color: black;
+    background-color: #f3f3f3;
+    position: relative;
+    text-align: center;
+}
+.Hi{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+.JP{
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 500;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+.UX{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    top: 29%;
+    left: 5%;
+}
