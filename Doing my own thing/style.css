@@ -1,6 +1,7 @@
 body{
     max-width: 100%;
 }
+
 /*Navigation Area*/
 .nav{
     align-items: center;
@@ -37,6 +38,7 @@ body{
 .button:hover{
     color: #C02242;
 }
+
 /*Social Media*/
 .ibn{
     margin-right: 40px;
@@ -64,6 +66,7 @@ body{
     background: black;
     color: #f3f3f3;
 }
+
 /* Hero with Text*/
 #hero{
     margin: 0px;
@@ -97,6 +100,36 @@ h4{
     font-size: 32px;
     font-weight: 500;
 }
+
+/*Carousel (not sure how to do this yet still studying to make it happen)*/
+.carousel{
+    background-color: black;
+}
+.card{
+    background-color: #222222;
+    padding: 4px 10px;
+    margin: 10px;
+}
+.card:hover{
+    box-shadow: 5px 5px 8px #f3f3f350;
+}
+.p1container{
+    color: #f3f3f3;
+}
+.cardbuttons{
+    background-color: black;
+    color: #f3f3f3;
+    font-family: 'Playfair Display', serif;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    float: right;
+}
+
 /*Footer Section*/
 .footer{
     background-color: black;
